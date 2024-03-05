@@ -33,7 +33,7 @@ namespace PizzaStore
                     menuvalg = menu.Pizza1.ToString();
                     totalpris += menu.Pizza1.Pizzapris;
                     Console.WriteLine(Environment.NewLine + "Du har valgt: " + Environment.NewLine + menu.Pizza1);
-                    Console.WriteLine(Environment.NewLine + "Ønsker du at ilføje drikkevare?");
+                    Console.WriteLine(Environment.NewLine + "Ønsker du at ilføje ekstra topping?");
                     response = Console.ReadLine();
                 }
                 else if (response.ToLower().Equals("2"))
@@ -84,6 +84,7 @@ namespace PizzaStore
                     Console.WriteLine(Environment.NewLine + "Du har valgt: " + Environment.NewLine + menu.topping3);
                     Console.WriteLine(Environment.NewLine + "Ønsker du at ilføje drikkevare?");
                     response = Console.ReadLine();
+
 
                     //for drikkevare
                     if (response.ToLower().Equals("cola"))
