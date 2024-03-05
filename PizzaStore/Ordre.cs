@@ -21,7 +21,7 @@ namespace PizzaStore
         }
         public override string ToString()
         {
-            return  Date.ToString("dd:mm:yy kl HH:mm:ss");
+            return  Date.ToString("dd:MM:yy kl HH:mm:ss");
         }
     }
 }

@@ -21,6 +21,7 @@ namespace PizzaStore
         {
             return navn.PadRight(82) + drikkevarepris + "Kr.";
         }
+
         public double Drikkevarepris
         {
             get { return drikkevarepris; }
