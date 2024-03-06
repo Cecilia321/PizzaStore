@@ -14,7 +14,7 @@ namespace PizzaStore
             string toppingvalg = "";
             double totalpris = 0;
             string kundenavn;
-
+            
 
 
             Console.WriteLine("Velkommen til Big Mammas pizzaria, vil du se menuen?");

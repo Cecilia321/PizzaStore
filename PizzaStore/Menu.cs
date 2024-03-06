@@ -25,11 +25,11 @@ namespace PizzaStore
             Pizza pizza2 = new Pizza("Nr. 2", "Big Mamma", "Tomat, gorgonzola, reje, asparges og parma skinke", 90);
             Pizza pizza3 = new Pizza("Nr. 3", "Italiana", "Tomat, ost, løg og kødsovs", 75);
 
-            Drikkevarer Drikkevare1 = new Drikkevarer("Cola", 24.50);
+            Drikkevarer Drikkevare1 = new Drikkevarer("Cola", 30);
             Drikkevarer Drikkevare2 = new Drikkevarer("Sprite", 22.50);
             Drikkevarer Drikkevare3 = new Drikkevarer("Fanta", 25);
 
-            Topping Topping1 = new Topping("ekstra ost", 7);
+            Topping Topping1 = new Topping("ekstra ost", 10);
             Topping Topping2 = new Topping("parma skinke", 14);
             Topping Topping3 = new Topping("løg", 5);
         
