@@ -14,7 +14,6 @@ namespace PizzaStore
         private static int idcounter = 0;
 
 
-
         public DateTime Date { get => _date; private set => _date = value; }
      
 
