@@ -9,16 +9,14 @@ namespace PizzaStore
 {
     internal class Menu
     {
-        private double totalPris;
+        
         private Pizza pizzapris;
         private Drikkevarer drikkevarerpris;
-        private Kunde kundenavn;
         private Topping topping;
 
-
-        public double TotalPris { get => totalPris; set => totalPris = value; }
         internal Pizza Pizzapris { get => pizzapris; set => pizzapris = value; }
         internal Drikkevarer Drikkevarerpris { get => drikkevarerpris; set => drikkevarerpris = value; }
+        internal Topping Topping { get => topping; set => topping = value; }
 
 
             Pizza pizza1 = new Pizza("Nr. 1", "Margeritha", "Tomat og ost", 69);
@@ -95,12 +93,7 @@ namespace PizzaStore
             get { return Topping3; }
         }
 
-
-
-
-
-
-
+        
     }
 
 

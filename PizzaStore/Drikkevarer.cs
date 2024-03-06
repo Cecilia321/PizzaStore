@@ -14,17 +14,19 @@ namespace PizzaStore
         public Drikkevarer(string Navn, double Drikkevarepris)
         {
             navn = Navn;
-            drikkevarepris = Drikkevarepris;
+            Drikkevarepris1 = Drikkevarepris;
         }
 
         public override string ToString()
         {
-            return navn.PadRight(82) + drikkevarepris + "Kr.";
+            return navn.PadRight(82) + Drikkevarepris1 + "Kr.";
         }
 
         public double Drikkevarepris
         {
-            get { return drikkevarepris; }
+            get { return Drikkevarepris1; }
         }
+
+        public double Drikkevarepris1 { get => drikkevarepris; set => drikkevarepris = value; }
     }
 }
