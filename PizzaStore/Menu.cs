@@ -27,9 +27,9 @@ namespace PizzaStore
             Drikkevarer Drikkevare2 = new Drikkevarer("Sprite", 22.50);
             Drikkevarer Drikkevare3 = new Drikkevarer("Fanta", 25);
 
-            Topping Topping1 = new Topping("ekstra ost", 10);
-            Topping Topping2 = new Topping("parma skinke", 14);
-            Topping Topping3 = new Topping("løg", 5);
+            Topping Topping1 = new Topping("Ekstra ost", 10);
+            Topping Topping2 = new Topping("Parma skinke", 14);
+            Topping Topping3 = new Topping("Løg", 5);
         
 
         public override string ToString()

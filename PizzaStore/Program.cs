@@ -20,6 +20,7 @@ namespace PizzaStore
             Console.WriteLine("Velkommen til Big Mammas pizzaria, vil du se menuen?");
             string response = Console.ReadLine();
 
+
             //når vi er her inde så har brugeren sagt ja til at bestille
             if (response.ToLower().Equals("ja"))
             {
